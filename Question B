@@ -1,0 +1,8 @@
+//Perform sorting of an array in descending order.
+
+const inputArray = [5, 1, 9, 3, 7];
+
+// Sort the array in descending order
+inputArray.sort((a, b) => b - a);
+
+console.log(inputArray); // Output: [9, 7, 5, 3, 1]
